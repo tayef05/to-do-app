@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="tailwind.css" />
+    <script src="main.js"></script>
+    <title>ToDo: list your tasks</title>
+  </head>
+  <body
+    class="
+      bg-gradient-to-t
+      from-gray-800
+      to-gray-600
+      bg-no-repeat
+      min-h-screen
+      text-gray-50
+      flex flex-auto flex-col
+      gap-y-5
+    "
+  >
+    <h1 class="text-center text-3xl px-5 pt-4 pb-2">ToDo</h1>
+    <form
+      action=""
+      class="flex flex-initial flex-row justify-items-center px-10 h-10"
+      id="forms"
+    >
+      <input
+        class="w-full p-4 rounded-l-md text-gray-900 text-center"
+        placeholder="task"
+        type="text"
+        name=""
+        id="inputer"
+      />
+      <input class="w-40 rounded-r-md bg-gray-900" type="submit" value="Get" />
+    </form>
+    <div class="px-10 py-4">
+      <ul id="container"></ul>
+    </div>
+    <script src="main.js"></script>
+  </body>
+</html>
